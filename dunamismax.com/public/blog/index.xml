@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on dunamismax.com</title>
+    <link>https://dunamismax.com/blog/</link>
+    <description>Recent content in Blogs on dunamismax.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dunamismax.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting a Hugo blog on Ubuntu</title>
+      <link>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</link>
+      <pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</guid>
+      <description>Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.&#xA;Installing Hugo &amp;amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:&#xA;hugo new site dunamismax.com This created the basic structure. Using:&#xA;hugo server -D I previewed changes instantly.</description>
+    </item>
+    <item>
+      <title>Why I am learning Go</title>
+      <link>https://dunamismax.com/blog/why-i-am-learning-go/</link>
+      <pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>https://dunamismax.com/blog/why-i-am-learning-go/</guid>
+      <description>Why learn Go after years in IT leadership and administration? Because while I’ve managed teams, strategies, and infrastructures, diving into coding offers a deeper understanding of the tools I rely on. As I refine this Hugo-based blog, I see how coding can unlock new possibilities, and Go (Golang) stands out for its simplicity, performance, and strong ecosystem.&#xA;Why Go? Simplicity: Go’s clean syntax makes it straightforward to learn and easy to maintain.</description>
+    </item>
+  </channel>
+</rss>
