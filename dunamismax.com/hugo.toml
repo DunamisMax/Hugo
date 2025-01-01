@@ -20,7 +20,7 @@ theme = 'hugo-paper'
 
   # Social & identity
   name = 'DunamisMax'
-  bio = 'IT Director learning software engineering with Go'
+  bio = 'IT Director learning software engineering with Rust'
 
   # Social links
   github = 'DunamisMax'

@@ -6,21 +6,21 @@
     <description>Recent content on dunamismax.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2024 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2024 21:53:00 -0500</lastBuildDate>
     <atom:link href="https://dunamismax.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I am learning Rust</title>
+      <link>https://dunamismax.com/blog/why-i-am-learning-rust/</link>
+      <pubDate>Tue, 31 Dec 2024 21:53:00 -0500</pubDate>
+      <guid>https://dunamismax.com/blog/why-i-am-learning-rust/</guid>
+      <description>Why I Am Learning Rust Over the past few years, Rust has emerged as a powerful, modern programming language that combines high performance with robust safety guarantees. I first stumbled upon Rust when reading about memory safety and concurrency, two areas where many languages struggle or require significant caution. This piqued my curiosity: Could Rust be the language that balances low-level control with user-friendly tooling, making safer systems code more accessible?</description>
+    </item>
     <item>
       <title>Hosting a Hugo blog on Ubuntu</title>
       <link>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</link>
       <pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate>
       <guid>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</guid>
       <description>Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.&#xA;Installing Hugo &amp;amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:&#xA;hugo new site dunamismax.com This created the basic structure. Using:&#xA;hugo server -D I previewed changes instantly.</description>
-    </item>
-    <item>
-      <title>Why I am learning Go</title>
-      <link>https://dunamismax.com/blog/why-i-am-learning-go/</link>
-      <pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://dunamismax.com/blog/why-i-am-learning-go/</guid>
-      <description>Why learn Go after years in IT leadership and administration? Because while I’ve managed teams, strategies, and infrastructures, diving into coding offers a deeper understanding of the tools I rely on. As I refine this Hugo-based blog, I see how coding can unlock new possibilities, and Go (Golang) stands out for its simplicity, performance, and strong ecosystem.&#xA;Why Go? Simplicity: Go’s clean syntax makes it straightforward to learn and easy to maintain.</description>
     </item>
     <item>
       <title>Contact</title>
