@@ -6,22 +6,8 @@
     <description>Recent content on dunamismax.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2024 22:47:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://dunamismax.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Being alone on New Years is dope actually</title>
-      <link>https://dunamismax.com/blog/being-alone-on-new-years-is-dope-actually/</link>
-      <pubDate>Tue, 31 Dec 2024 22:47:00 -0500</pubDate>
-      <guid>https://dunamismax.com/blog/being-alone-on-new-years-is-dope-actually/</guid>
-      <description>being alone on New Years is dope actually Spending New Year’s Eve alone can sound like a bummer in theory, but in practice, it can be downright glorious. Instead of fielding invites to noisy gatherings or pretending to enjoy stale party mixes, I decided to go deep into learning Rust and treat myself to a night of unhurried coding, crispy nuggets, and a classic sci-fi action flick.&#xA;Diving into Rust on New Year’s Eve As an IT Director by day, I often juggle a variety of systems and priorities, but at night I switch gears into Rust enthusiast mode.</description>
-    </item>
-    <item>
-      <title>Why I am learning Rust</title>
-      <link>https://dunamismax.com/blog/why-i-am-learning-rust/</link>
-      <pubDate>Tue, 31 Dec 2024 21:53:00 -0500</pubDate>
-      <guid>https://dunamismax.com/blog/why-i-am-learning-rust/</guid>
-      <description>Why I Am Learning Rust Over the past few years, Rust has emerged as a powerful, modern programming language that combines high performance with robust safety guarantees. I first stumbled upon Rust when reading about memory safety and concurrency, two areas where many languages struggle or require significant caution. This piqued my curiosity: Could Rust be the language that balances low-level control with user-friendly tooling, making safer systems code more accessible?</description>
-    </item>
     <item>
       <title>Hosting a Hugo blog on Ubuntu</title>
       <link>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</link>
