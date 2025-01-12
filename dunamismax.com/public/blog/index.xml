@@ -13,7 +13,7 @@
       <link>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</link>
       <pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate>
       <guid>https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/</guid>
-      <description>Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.&#xA;Installing Hugo &amp;amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:&#xA;hugo new site dunamismax.com This created the basic structure. Using:&#xA;hugo server -D I previewed changes instantly.</description>
+      <description>I recently put together a Hugo blog on an Ubuntu server and learned a lot in the process. After installing Hugo Extended via apt, I created a new site and used hugo server -D to preview any changes. I picked the hugo-paper theme, updated theme = &amp;quot;hugo-paper&amp;quot; in hugo.toml, and customized fonts and icons in the static/ folder. A few template tweaks gave the blog a personal touch.&#xA;For content, I set up _index.</description>
     </item>
   </channel>
 </rss>

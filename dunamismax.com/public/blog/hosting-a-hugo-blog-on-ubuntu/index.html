@@ -65,10 +65,8 @@
   
   
   
-  <meta name="description" content="Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.
-Installing Hugo &amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:
-hugo new site dunamismax.com This created the basic structure. Using:
-hugo server -D I previewed changes instantly." />
+  <meta name="description" content="I recently put together a Hugo blog on an Ubuntu server and learned a lot in the process. After installing Hugo Extended via apt, I created a new site and used hugo server -D to preview any changes. I picked the hugo-paper theme, updated theme = &quot;hugo-paper&quot; in hugo.toml, and customized fonts and icons in the static/ folder. A few template tweaks gave the blog a personal touch.
+For content, I set up _index." />
   <meta name="author" content="DunamisMax" />
   
 
@@ -175,21 +173,17 @@ hugo server -D I previewed changes instantly." />
   
   
   <meta itemprop="name" content="Hosting a Hugo blog on Ubuntu">
-  <meta itemprop="description" content="Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.
-Installing Hugo &amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:
-hugo new site dunamismax.com This created the basic structure. Using:
-hugo server -D I previewed changes instantly.">
+  <meta itemprop="description" content="I recently put together a Hugo blog on an Ubuntu server and learned a lot in the process. After installing Hugo Extended via apt, I created a new site and used hugo server -D to preview any changes. I picked the hugo-paper theme, updated theme = &#34;hugo-paper&#34; in hugo.toml, and customized fonts and icons in the static/ folder. A few template tweaks gave the blog a personal touch.
+For content, I set up _index.">
   <meta itemprop="datePublished" content="2024-12-18T12:00:00+00:00">
   <meta itemprop="dateModified" content="2024-12-18T12:00:00+00:00">
-  <meta itemprop="wordCount" content="273">
+  <meta itemprop="wordCount" content="153">
   
   <meta property="og:url" content="https://dunamismax.com/blog/hosting-a-hugo-blog-on-ubuntu/">
   <meta property="og:site_name" content="dunamismax.com">
   <meta property="og:title" content="Hosting a Hugo blog on Ubuntu">
-  <meta property="og:description" content="Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.
-Installing Hugo &amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:
-hugo new site dunamismax.com This created the basic structure. Using:
-hugo server -D I previewed changes instantly.">
+  <meta property="og:description" content="I recently put together a Hugo blog on an Ubuntu server and learned a lot in the process. After installing Hugo Extended via apt, I created a new site and used hugo server -D to preview any changes. I picked the hugo-paper theme, updated theme = &#34;hugo-paper&#34; in hugo.toml, and customized fonts and icons in the static/ folder. A few template tweaks gave the blog a personal touch.
+For content, I set up _index.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -200,10 +194,8 @@ hugo server -D I previewed changes instantly.">
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Hosting a Hugo blog on Ubuntu">
-  <meta name="twitter:description" content="Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.
-Installing Hugo &amp; Starting a New Site After installing Hugo (Extended) via apt, I ran:
-hugo new site dunamismax.com This created the basic structure. Using:
-hugo server -D I previewed changes instantly.">
+  <meta name="twitter:description" content="I recently put together a Hugo blog on an Ubuntu server and learned a lot in the process. After installing Hugo Extended via apt, I created a new site and used hugo server -D to preview any changes. I picked the hugo-paper theme, updated theme = &#34;hugo-paper&#34; in hugo.toml, and customized fonts and icons in the static/ folder. A few template tweaks gave the blog a personal touch.
+For content, I set up _index.">
 
   
   
@@ -352,33 +344,8 @@ hugo server -D I previewed changes instantly.">
     
   </header>
 
-  <section><p>Over the past few days, I’ve set up a Hugo-based blog on an Ubuntu server. From installing Hugo and picking a theme to customizing layouts, adding a contact form, and tweaking the favicon, it’s been a step-by-step learning process.</p>
-<h2 id="installing-hugo--starting-a-new-site">Installing Hugo &amp; Starting a New Site</h2>
-<p>After installing Hugo (Extended) via apt, I ran:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site dunamismax.com
-</span></span></code></pre></div><p>This created the basic structure. Using:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
-</span></span></code></pre></div><p>I previewed changes instantly.</p>
-<h2 id="selecting-and-customizing-a-theme">Selecting and Customizing a Theme</h2>
-<p>I chose <a href="https://github.com/nanxiaobei/hugo-paper">hugo-paper</a> for its simplicity. Setting <code>theme = &quot;hugo-paper&quot;</code> in <code>hugo.toml</code> integrated it smoothly. I then customized fonts, added a local <code>avatar.png</code> and <code>favicon.ico</code> in <code>static/</code>, and modified templates (<code>baseof.html</code>, <code>list.html</code>) to suit my style.</p>
-<h2 id="content--contact-page">Content &amp; Contact Page</h2>
-<ul>
-<li><strong>Home &amp; Blog:</strong> A home <code>_index.md</code> and <code>content/blog/</code> posts gave structure.</li>
-<li><strong>Contact:</strong> A <code>contact.md</code> with an HTML form (using Formspree) required <code>unsafe = true</code> in Goldmark to render raw HTML.</li>
-</ul>
-<h2 id="troubleshooting">Troubleshooting</h2>
-<ul>
-<li><strong>Draft &amp; Future Dates:</strong> Setting <code>draft = false</code> and current dates ensured pages built correctly.</li>
-<li><strong>Raw HTML:</strong> Enabling unsafe rendering displayed the contact form properly.</li>
-<li><strong>Deployment Nuances:</strong> On <code>https://dunamismax.com/</code>, I cleared caches and adjusted URLs until everything loaded as expected.</li>
-<li><strong>Favicon &amp; Avatar:</strong> Ensuring the correct paths in <code>static/</code> made these resources appear properly.</li>
-</ul>
-<h2 id="deployment">Deployment</h2>
-<p>A final:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
-</span></span></code></pre></div><p>generated the <code>public/</code> directory. Uploading it to the server and configuring Nginx yielded a fast, fully static site.</p>
-<h2 id="final-thoughts">Final Thoughts</h2>
-<p>This process taught me that building a Hugo blog involves iterative tweaks, careful placement of files, and simple configuration changes. Each small step—theme selection, HTML form integration, or static file organization—built my confidence. I’m eager to continue refining the site and sharing what I learn along the way.</p>
+  <section><p>I recently put together a Hugo blog on an Ubuntu server and learned a lot in the process. After installing Hugo Extended via apt, I created a new site and used <code>hugo server -D</code> to preview any changes. I picked the hugo-paper theme, updated <code>theme = &quot;hugo-paper&quot;</code> in <code>hugo.toml</code>, and customized fonts and icons in the <code>static/</code> folder. A few template tweaks gave the blog a personal touch.</p>
+<p>For content, I set up <code>_index.md</code> for the homepage, added posts under <code>content/blog/</code>, and created a contact page with a Formspree HTML form (requiring <code>unsafe = true</code> in Goldmark). A few hiccups popped up—like having to switch off draft settings and adjust URLs—but everything eventually came together. Once I was happy, I ran <code>hugo</code> to generate the <code>public/</code> folder, uploaded it, and configured a Caddy reverse proxy. It’s been fun experimenting with Hugo and refining each detail, and I’m excited to keep improving my site.</p>
 </section>
 
   
